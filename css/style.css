@@ -380,3 +380,7 @@ img{
     border-radius: 1.5rem;
     justify-self: center;
  }
+
+ .about_data{
+    text-align: center;
+ }
