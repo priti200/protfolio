@@ -151,12 +151,14 @@ img{
     font-size: var(--h2-font-size);
     color: var(--first-color);
     margin-bottom: 2rem;
+    text-align: center;
 }
 
-.section__subtitile{
+.section_subtitle{
     display: block;
     font-size: var(--smaller-font-size);
     color: var(--text-color-light);
+    text-align: center;
 }
 
 /* =============== HEADER AND NAV ============ */
