@@ -54,7 +54,7 @@
 
     /* =============  DARK LIGHT THEME ============ */
 
-        const themeButton = document.getElementById('themeButton')
+        const themeButton = document.getElementById('theme-button')
         const lightTheme = 'light-theme'
         const iconTheme = 'bx-sun'
 
@@ -64,8 +64,8 @@
         const selectedIcon = localStorage.getItem('selected-icon')
 
         //We obtain the current theme that the interface has by validating the light-theme class
-        const getCurrentTheme = () => document.body.classList.contains('light-theme') ? 'dark' : 'light'
-        const getCurrentIcon = () => themeButton.classList.contains('icon-theme') ? 'bx bx-moon' : 'bx bx-sun'
+        const getCurrentTheme = () => document.body.classList.contains(lightTheme) ? 'dark' : 'light'
+        const getCurrentIcon = () => themeButton.classList.contains(iconTheme) ? 'bx bx-moon' : 'bx bx-sun'
 
         //We validate if the user previously chose a topic
         if(selectedTheme){
