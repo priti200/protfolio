@@ -88,6 +88,7 @@ textarea{
 body{
     background-color: var(--body-color);
     color: var(--text-color);
+    transition: .4s;
 }
 
 h1,h2,h3{
@@ -170,6 +171,7 @@ img{
     width: 100%;
     background-color: var(--body-color);
     z-index: var(--z-fixed);
+    transition: .4s;
 }
 
 .nav{
@@ -197,6 +199,7 @@ img{
     border-radius: 4rem;
     padding: 1rem 2.25rem;
     backdrop-filter: blur(10px);
+    transition: .4s; 
 }
 .nav__list{
     display:flex;
