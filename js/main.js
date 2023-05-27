@@ -70,7 +70,7 @@
         //We validate if the user previously chose a topic
         if(selectedTheme){
             document.body.classList[selectedTheme === 'dark' ? 'add' : 'remove'](lightTheme)
-            themeButton.classList[selectedIcon === 'bx bx-moon' ? 'add' : 'remove'](iconTheme)
+            themeButton.classList[selectedIcon === 'bx bx-sun' ? 'add' : 'remove'](iconTheme)
         }
 
         // Activate/deactivate the theme manually with the button
